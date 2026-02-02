@@ -1,8 +1,19 @@
+.hero {
+  background-color: var(--color-hero-background);
+  position: relative;
+  padding: 8rem 0;
+  overflow: hidden;
+}
+
 .heroContainer {
+  margin: 0 auto;
+  max-width: 128rem;
   display: flex;
   flex-direction: column;
   gap: 3rem;
   text-align: left;
+  padding: 3rem;
+  padding-left: 4.57rem;
 }
 
 .heroImg {
@@ -33,47 +44,4 @@
 .voiceImgContainer {
   margin-top: 2.3rem;
   margin-left: -2rem;
-}
-
-/* import to different component later */
-.devLogoContainer {
-  margin-top: 3rem;
-}
-
-.devLogoContainer h1 {
-  font-size: 4.8rem;
-}
-
-.workContainer {
-  max-width: 64rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.workContainer img {
-  width: 8%;
-}
-
-.workContainer h2 {
-  font-size: 3.2rem;
-  font-weight: 200;
-  color: green;
-}
-
-.logoContainer {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-  justify-content: center;
-}
-
-.logoPlaceholder {
-  margin-top: 4rem;
-  font-size: 2.8rem;
-  display: inline-block;
-  padding: 1.5rem 4rem;
-  border-radius: 10rem;
-  color: #9e9e9e;
-  background-color: #d9d9d9;
 }
