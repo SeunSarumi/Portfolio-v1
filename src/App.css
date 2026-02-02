@@ -35,6 +35,9 @@ body {
   padding: 3rem;
   padding-left: 4.57rem;
   background-color: var(--color-hero-background);
+
+  max-width: 128rem;
+  margin: 0 auto;
 }
 
 /* so i dont have to do this later */
