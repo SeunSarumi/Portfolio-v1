@@ -9,17 +9,9 @@
 :root {
   /* COLORS */
   --color-hero-background: #ffede5;
+  --color-orange: #ffcab2;
 
-  --color-primary: #55c57a;
-  --color-primary-light: #7ed56f;
-  --color-primary-dark: #28b485;
-
-  --color-grey-light-1: #f7f7f7;
-  --color-grey-dark-1: #777;
-  --color-grey-dark-3: #333;
-
-  /* TYPOGRAPHY */
-  --default-font-size: 1.6rem;
+  --color-header: #282828 /* TYPOGRAPHY */ --default-font-size: 1.6rem;
 
   /* SHADOWS */
   --shadow-light: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
@@ -41,6 +33,7 @@ body {
   line-height: 1.6;
   /* color: var(--color-grey-dark-1); */
   padding: 3rem;
+  padding-left: 4.57rem;
   background-color: var(--color-hero-background);
 }
 

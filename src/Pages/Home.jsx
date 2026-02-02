@@ -1,10 +1,11 @@
 import HomeNav from "../Components/HomeNav";
+import Hero from "../Features/Home/Hero";
 
 function Home() {
   return (
     <div>
       <HomeNav />
-      <h1>Home</h1>
+      <Hero />
     </div>
   );
 }

@@ -1,0 +1,38 @@
+.heroContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  text-align: left;
+  max-width: 128rem;
+  margin: 0 auto;
+}
+
+.heroImg {
+  width: 15%;
+  display: block;
+  padding: 1.43rem 1.74rem;
+  border: solid var(--color-orange) 6px;
+  border-radius: 1.6rem;
+}
+
+.heroHeader {
+  max-width: 85%;
+  font-size: 3.6rem;
+  color: var(--color-header);
+  font-weight: 650;
+  line-height: 4rem;
+}
+
+.heroText {
+  max-width: 65%;
+  font-size: 2.4rem;
+  color: var(--color-header);
+  font-weight: 300;
+  line-height: 3rem;
+  letter-spacing: -2%;
+}
+
+.voiceImgContainer {
+  margin-top: 2.3rem;
+  margin-left: -2rem;
+}
