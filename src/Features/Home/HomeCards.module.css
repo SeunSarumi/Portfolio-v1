@@ -1,0 +1,84 @@
+.homeCards {
+  background-color: var(--color-purple);
+  position: relative;
+  padding: 8rem 0;
+  overflow: hidden;
+  /* height: 100rem; */
+}
+
+.cardsContainer {
+  margin: 0 auto;
+  max-width: 128rem;
+  display: flex;
+}
+
+.card1 {
+  height: 78rem;
+  width: 64rem;
+  background-color: #ffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1rem 2rem #b5b1fc;
+}
+
+.card1_imgContainer {
+  /* background-color: #b5b1fc;
+  filter: blur(5px); */
+}
+
+.card1_Img {
+  width: 100%;
+  position: relative;
+  right: 10rem;
+}
+
+.card1_TextBox {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 3rem;
+}
+
+.card1_TextBox h1 {
+  font-size: 4.8rem;
+  font-weight: 650;
+  letter-spacing: 0;
+  line-height: 4rem;
+}
+
+.card1_TextBox h2 {
+  max-width: 40rem;
+  font-family: "Messina Sans";
+  font-size: 2.4rem;
+  font-weight: 400;
+  letter-spacing: -2%;
+  color: #9e9e9e;
+  /* line-height: 4rem; */
+}
+
+.cardLink {
+  align-self: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 3.2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+
+  color: #fff;
+  background-color: #6666fe;
+  transition: all 0.3s;
+  position: relative;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  /* width: 31.8rem; */
+}
+
+.cardLink:hover {
+  background-color: purple;
+}
+
+.card2 {
+}
