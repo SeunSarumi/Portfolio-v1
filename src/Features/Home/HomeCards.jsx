@@ -23,7 +23,21 @@ function HomeCards() {
             </Link>
           </div>
         </figure>
-        <figure className={styles.card2}></figure>
+        <figure className={styles.card2}>
+          <div className={styles.card2_imgContainer}>
+            <img
+              className={styles.card2_Img}
+              src="/images/features-card-img.png"
+              alt="features card image"
+            />
+          </div>
+          <div className={styles.card2_TextBox}>
+            <h1>Web apps, dashboards, landing pages & more</h1>
+            <h2>
+              All the code, speed, and scalability you need under one roof.
+            </h2>
+          </div>
+        </figure>
       </div>
     </div>
   );
