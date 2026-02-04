@@ -1,3 +1,4 @@
+import ProfieCta from "../../Components/ProfieCta";
 import styles from "./Writing.module.css";
 
 // Module is abit big for lazy reasons
@@ -88,6 +89,7 @@ function Writing() {
           </ul>
         </div>
       </div>
+      <ProfieCta />
     </section>
   );
 }

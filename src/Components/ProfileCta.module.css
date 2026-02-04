@@ -1,0 +1,71 @@
+.profileSection {
+  margin-top: 17rem;
+  background-color: var(--color-purple);
+  height: 80rem;
+  /* padding: 3rem; */
+}
+
+.ctaContainer {
+  margin: 0 auto;
+  max-width: 128rem;
+}
+
+.container {
+  height: 36.2rem;
+  width: 108rem;
+  background-color: #3333fe;
+  border-radius: 20px;
+
+  /* content styles */
+  display: flex;
+  padding: 6rem 11rem;
+  gap: 4rem;
+}
+
+.containertextBox {
+  height: 25rem;
+  width: 60rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* background-color: red; */
+}
+
+.boxHeader {
+  font-size: 4rem;
+  color: #ffff;
+  line-height: normal;
+  font-weight: 600;
+  max-width: 50rem;
+}
+
+.btnContainer {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.emailBox {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.boxImg {
+  width: 100%;
+}
+
+.emailHeader {
+  font-size: 2.4rem;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Messina Sans";
+  letter-spacing: -1.5px;
+}
+
+.emailSecondary {
+  color: #b3b3ff;
+  font-weight: 400;
+  font-size: 1.6rem;
+  letter-spacing: 0;
+}
