@@ -1,0 +1,106 @@
+.writingSection {
+  background-color: var(--color-purple);
+}
+
+.writingContainer {
+  margin: 0 auto;
+  max-width: 128rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0 10rem;
+  /* justify-content: center; */
+  gap: 3rem;
+}
+
+.writeup h1 {
+  font-size: 3.4rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 4rem;
+  color: var(--color-light-black);
+}
+
+.writeup h2 {
+  margin-top: 1rem;
+  font-family: "Messina Sans";
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: 350;
+  line-height: normal;
+  max-width: 50rem;
+  color: #9e9e9e;
+}
+
+/* writeup tools */
+
+.writeupTools {
+  margin-top: 8rem;
+}
+
+.writeupTools h1 {
+  font-size: 3.4rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 4rem;
+  color: var(--color-light-black);
+}
+
+.writeupTools h2 {
+  font-family: "Messina Sans";
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: 350;
+  line-height: normal;
+  max-width: 50rem;
+  color: #9e9e9e;
+}
+
+.writeupTools h3 {
+  margin-top: 3rem;
+  max-width: 107.2rem;
+  font-family: "Messina Sans";
+  font-size: 3.2rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 4.9rem;
+  color: var(--color-light-black);
+}
+
+/* List */
+
+.philContainer {
+  margin-top: 8rem;
+}
+
+.philHeading {
+  font-size: 3.4rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 4rem;
+  color: var(--color-light-black);
+  margin-bottom: 4rem;
+}
+
+.listContainer {
+  padding: 1.5rem 1.1rem;
+}
+
+.listContainer h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 2rem;
+  color: var(--color-light-black);
+}
+
+.listContainer h2 {
+  font-family: "Messina Sans";
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: 350;
+  line-height: normal;
+  max-width: 50rem;
+  color: #9e9e9e;
+}

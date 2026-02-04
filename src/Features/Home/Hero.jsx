@@ -29,7 +29,7 @@ function Hero() {
           </div>
         </div>
       </main>
-      <section>
+      <section className={styles.logoSection}>
         <LogoSection />
       </section>
     </>

@@ -10,6 +10,7 @@
   margin: 0 auto;
   max-width: 128rem;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 2rem;
