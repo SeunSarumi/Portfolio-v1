@@ -8,7 +8,7 @@ import Writing from "../Features/Home/Writing";
 function Home() {
   return (
     <div>
-      <HomeNav />
+      {/* <HomeNav /> */}
       <Hero />
       <HomeCards />
       <Writing />

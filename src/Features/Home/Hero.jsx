@@ -1,3 +1,4 @@
+import HomeNav from "../../Components/HomeNav";
 import styles from "./Hero.module.css";
 import LogoSection from "./LogoSection";
 
@@ -6,6 +7,7 @@ function Hero() {
     <>
       <main className={styles.hero}>
         <div className={styles.heroContainer}>
+          <HomeNav />
           <div className={styles.heroImgContainer}>
             <img
               className={styles.heroImg}
