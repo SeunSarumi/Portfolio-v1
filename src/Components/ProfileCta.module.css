@@ -1,8 +1,16 @@
 .profileSection {
   margin-top: 17rem;
+
   background-color: var(--color-purple);
   height: 80rem;
-  /* padding: 3rem; */
+  /* margin: 0 auto; */
+  /* max-width: 128rem; */
+  /* padding: 0 20rem; */
+}
+
+.cta {
+  max-width: 128rem;
+  margin: 0 auto;
 }
 
 .ctaContainer {

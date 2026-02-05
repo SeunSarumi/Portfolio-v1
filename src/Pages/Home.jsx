@@ -1,3 +1,4 @@
+import Footer from "../Components/Footer";
 import HomeNav from "../Components/HomeNav";
 import ProfieCta from "../Components/ProfieCta";
 import Hero from "../Features/Home/Hero";
@@ -11,6 +12,7 @@ function Home() {
       <Hero />
       <HomeCards />
       <Writing />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,68 @@
+.footerSection {
+  background-color: #121212;
+  /* height: 100rem; */
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  padding-top: 4rem;
+}
+
+.footerBox {
+  margin: 0 auto;
+  max-width: 128rem;
+}
+
+.footerContainer {
+  display: flex;
+  align-items: center;
+
+  gap: 15rem;
+}
+
+.nameHeader {
+  font-size: 4rem;
+  color: #ffff;
+  line-height: normal;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+
+.footerTextbox {
+  color: #fff;
+  width: 56rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.footerTextbox h1 {
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.footerTextbox h2 {
+  font-size: 3rem;
+  color: #6a6a6a;
+  line-height: 3.2rem;
+  font-weight: 500;
+}
+
+.footerTextbox h3 {
+  font-size: 2rem;
+  color: #ffff;
+}
+
+.copyright {
+  margin-top: 6rem;
+  font-size: 2rem;
+  color: #ffff;
+  color: #6a6a6a;
+}
+
+.footerimg {
+  width: 100%;
+}
