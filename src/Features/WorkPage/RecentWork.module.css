@@ -1,0 +1,23 @@
+.workSection {
+  background-color: var(--color-purple);
+  position: relative;
+  padding: 8rem 0;
+  overflow: hidden;
+}
+
+.workSectionContainer {
+  margin: 0 auto;
+  max-width: 128rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  text-align: left;
+  padding: 3rem;
+  padding-left: 4.57rem;
+}
+
+.workpageHeader {
+  font-size: 9.6rem;
+  font-weight: 650;
+  line-height: normal;
+}
