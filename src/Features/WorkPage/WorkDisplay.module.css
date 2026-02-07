@@ -27,8 +27,24 @@
   font-weight: 650;
 }
 
+.workTextContainer h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  width: 39.3rem;
+  color: var(--color-light-black);
+  line-height: normal;
+  letter-spacing: normal;
+}
+
 .workTextContainer h3 {
-  font-size: 2.4rem;
+  font-size: 2rem;
+  width: 39.3rem;
+  color: #9e9e9e;
+  line-height: -2px;
+}
+
+.workTextContainer p {
+  font-size: 1.8rem;
   width: 39.3rem;
   color: #9e9e9e;
   line-height: -2px;
