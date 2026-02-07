@@ -12,11 +12,41 @@ function LogoSection() {
             <img src="/images/green-arrow.png" alt="" />
           </div>
           <div className={styles.logoContainer}>
-            <div className={styles.logoPlaceholder}>Logo</div>
-            <div className={styles.logoPlaceholder}>Logo</div>
-            <div className={styles.logoPlaceholder}>Logo</div>
-            <div className={styles.logoPlaceholder}>Logo</div>
-            <div className={styles.logoPlaceholder}>Logo</div>
+            <div className={styles.logoPlaceholder}>
+              <img
+                className={styles.logoImg}
+                src="./images/html-logo.png"
+                alt=""
+              />
+            </div>
+            <div className={styles.logoPlaceholder}>
+              <img
+                className={styles.logoImg}
+                src="./images/css-logo.png"
+                alt=""
+              />
+            </div>
+            <div className={styles.logoPlaceholder}>
+              <img
+                className={styles.logoImg}
+                src="./images/js-logo.png"
+                alt=""
+              />
+            </div>
+            <div className={styles.logoPlaceholder}>
+              <img
+                className={styles.logoImg}
+                src="./images/react-logo.png"
+                alt=""
+              />
+            </div>
+            <div className={styles.logoPlaceholder}>
+              <img
+                className={styles.logoImg}
+                src="./images/git-logo.png"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
