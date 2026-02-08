@@ -58,6 +58,13 @@
 }
 
 /* ***************** Responsive css */
+
+@media (max-width: 85em) {
+  .logoSection {
+    padding: 8rem 5rem;
+  }
+}
+
 @media (max-width: 52.5em) {
   .heroContainer {
     gap: 3rem;

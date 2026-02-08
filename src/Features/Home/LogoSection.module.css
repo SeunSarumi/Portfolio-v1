@@ -45,3 +45,20 @@
 .logoPlaceholder {
   align-self: center;
 }
+
+/* queries */
+@media (max-width: 31.875em) {
+  .devLogoContainer h1 {
+    font-size: 4.8rem;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .logoImg {
+    width: 70%;
+  }
+
+  .logoContainer {
+    margin-top: 6rem;
+  }
+}
