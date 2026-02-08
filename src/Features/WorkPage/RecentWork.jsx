@@ -12,7 +12,9 @@ function RecentWork() {
         <ProjectNav />
         <h1 className={styles.workpageHeader}>Recent Work</h1>
         <WorkDisplay />
-        <ProfieCta />
+        <div className={styles.projectCtaBox}>
+          <ProfieCta />
+        </div>
       </div>
     </main>
   );

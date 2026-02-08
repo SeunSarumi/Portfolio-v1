@@ -29,3 +29,9 @@
     font-size: 7.6rem;
   }
 }
+
+@media (max-width: 38.5625em) {
+  .projectCtaBox {
+    display: none;
+  }
+}

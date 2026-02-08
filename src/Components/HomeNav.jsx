@@ -8,9 +8,9 @@ function HomeNav() {
         <div className={styles.firstNav}>
           <span className={styles.navName}>&lt;/seun sarumi&gt;</span>
           <div className={styles.btnLinks}>
-            <NavLink className={styles.btnLink} to="/projects">
+            <a className={styles.btnLink} download href="/Seun_Sarumi_CV.pdf">
               CV
-            </NavLink>
+            </a>
             <NavLink className={styles.btnLink} to="/projects">
               Projects
             </NavLink>
