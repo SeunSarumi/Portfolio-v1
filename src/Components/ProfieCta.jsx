@@ -15,10 +15,18 @@ function ProfieCta() {
               </h1>
               <div className={styles.btnContainer}>
                 <Link className={styles.discoverybtn}>
-                  <img src="/images/discoverybtn.png" alt="discover button" />
+                  <img
+                    className={styles.ctaBtn}
+                    src="/images/discoverybtn.png"
+                    alt="discover button"
+                  />
                 </Link>
                 <Link to="/projects" className={styles.recentProjects}>
-                  <img src="/images/recentbtn.png" alt="recent button" />
+                  <img
+                    className={styles.ctaBtn}
+                    src="/images/recentbtn.png"
+                    alt="recent button"
+                  />
                 </Link>
               </div>
               <div className={styles.emailBox}>

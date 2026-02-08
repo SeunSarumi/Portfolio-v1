@@ -21,6 +21,7 @@
 .container {
   height: 36.2rem;
   width: 108rem;
+  /* width: fit-content; */
   background-color: #3333fe;
   border-radius: 20px;
 
@@ -76,4 +77,12 @@
   font-weight: 400;
   font-size: 1.6rem;
   letter-spacing: 0;
+}
+
+.containerpictureBox img {
+  width: 100%;
+}
+
+.ctaBtn {
+  width: 100%;
 }

@@ -23,8 +23,8 @@ function Hero() {
 
           <h2 className={styles.heroText}>
             I specialize in building modern, scalable, and user-friendly
-            interfaces with React and Next.js. My focus is turning complex
-            problems into elegant, responsive solutions that users love.
+            interfaces with React. My focus is turning complex problems into
+            elegant, responsive solutions that users love.
           </h2>
           <div className={styles.voiceImgContainer}>
             <img src="/images/voiceImg.png" alt="" />
