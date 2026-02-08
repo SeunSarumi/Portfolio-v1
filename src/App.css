@@ -43,8 +43,8 @@ a {
 }
 
 /* responsiveness */
-@media (max-width: 31.875em) {
-  /* html {
+@media (max-width: 29.6875em) {
+  html {
     font-size: 50%;
-  } */
+  }
 }

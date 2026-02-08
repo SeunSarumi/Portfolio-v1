@@ -80,6 +80,12 @@
   }
 }
 
+@media (max-width: 37.5em) {
+  .heroImg {
+    width: 35%;
+  }
+}
+
 @media (max-width: 31.875em) {
   .heroContainer {
     gap: 3rem;
@@ -89,7 +95,7 @@
   }
 
   .heroImg {
-    width: 28%;
+    width: 50%;
   }
 
   .heroHeader {
@@ -112,7 +118,7 @@
 
 @media (max-width: 26.5625em) {
   .heroImg {
-    width: 35%;
+    /* width: 35%; */
   }
   .heroHeader {
     max-width: 90%;
