@@ -10,7 +10,7 @@
   margin: 0 auto;
   max-width: 128rem;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   align-items: center;
   justify-content: center;
   gap: 2rem;
@@ -129,4 +129,81 @@
   color: #9e9e9e;
   max-width: 28rem;
   /* line-height: 4rem; */
+}
+
+/* Queries */
+@media (max-width: 48.125em) {
+  .cardsContainer {
+    gap: 5rem;
+  }
+
+  .card1 {
+    height: 78rem;
+    width: 58rem;
+  }
+
+  .card1_Img {
+    width: 100%;
+    position: relative;
+    right: 6rem;
+  }
+}
+
+@media (max-width: 43.9375em) {
+  .cardsContainer {
+    gap: 5rem;
+  }
+
+  .card1 {
+    height: 69rem;
+    width: 50rem;
+  }
+
+  .card1_Img {
+    width: 100%;
+    position: relative;
+    right: 6rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .cardsContainer {
+    gap: 5rem;
+  }
+
+  .card1 {
+    height: 66rem;
+    width: 45rem;
+  }
+
+  .card1_Img {
+    width: 100%;
+    position: relative;
+    right: 6rem;
+  }
+
+  .card1_TextBox {
+    padding: 0 5rem;
+  }
+}
+
+@media (max-width: 29.6875em) {
+  .cardsContainer {
+    gap: 5rem;
+  }
+
+  .card1 {
+    height: 66rem;
+    width: 45rem;
+  }
+
+  .card1_Img {
+    width: 100%;
+    position: relative;
+    right: 1rem;
+  }
+
+  .card1_TextBox {
+    padding: 0 5rem;
+  }
 }
