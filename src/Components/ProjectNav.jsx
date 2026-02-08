@@ -12,7 +12,7 @@ function ProjectNav() {
           </Link>
           <div className={styles.btnLinks}>
             <NavLink className={styles.btnLink} to="/projects">
-              Download CV
+              CV
             </NavLink>
           </div>
         </div>

@@ -102,3 +102,22 @@
   opacity: 1;
   transform: scale(1.4);
 }
+
+/* queries */
+@media (max-width: 48.0625em) {
+  .mainWorkContainer {
+    gap: 10rem;
+  }
+
+  .workContainer {
+    gap: 5rem;
+  }
+
+  .workImg {
+    width: 100%;
+  }
+
+  .workTextContainer {
+    gap: 2rem;
+  }
+}

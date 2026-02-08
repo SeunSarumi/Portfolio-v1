@@ -21,3 +21,11 @@
   font-weight: 650;
   line-height: normal;
 }
+
+/* queries */
+@media (max-width: 48.0625em) {
+  .workpageHeader {
+    text-align: center;
+    font-size: 7.6rem;
+  }
+}
