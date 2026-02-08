@@ -63,3 +63,11 @@
   color: var(--color-light-black);
   font-size: 2rem;
 }
+
+/* for project nav */
+.iconContainer {
+  display: flex;
+  width: 30rem;
+  align-items: center;
+  gap: 1rem;
+}
