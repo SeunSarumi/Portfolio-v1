@@ -250,7 +250,7 @@
 @media (max-width: 24.1875em) {
   .container {
     height: 24.2rem;
-    width: 43rem;
+    width: 40rem;
     padding: 5rem 3rem;
   }
 }
@@ -258,7 +258,7 @@
 @media (max-width: 22.3125em) {
   .container {
     height: 24.2rem;
-    width: 40rem;
+    width: 35rem;
     padding: 3rem 2rem;
   }
   .boxImg {
