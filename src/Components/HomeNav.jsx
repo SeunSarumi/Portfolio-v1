@@ -19,11 +19,20 @@ function HomeNav() {
 
         <div className={styles.middleNav}>
           <div className={styles.outerNav}>
-            <a href="https://www.linkedin.com/in/seun-sarumi-2066b8193/">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/seun-sarumi-2066b8193/"
+            >
               Linkedin
             </a>
-            /<a href="https://github.com/SeunSarumi">Github</a>/
-            <a href="mailto:seunsarumi@gmail.com">Email</a>
+            /
+            <a target="_blank" href="https://github.com/SeunSarumi">
+              Github
+            </a>
+            /
+            <a target="_blank" href="mailto:seunsarumi@gmail.com">
+              Email
+            </a>
           </div>
         </div>
       </div>

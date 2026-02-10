@@ -43,7 +43,7 @@ function WorkDisplay() {
         <div className={styles.workTextContainer}>
           <h1>Omnifood</h1>
           <h2>Landing Page for make believe food app Omnifood</h2>
-          <h3>Built with : html, css and Javascript</h3>
+          <h3>Built with : HTML, CSS and Javascript</h3>
           <a
             className={styles.visitBtn}
             href="https://omnifood-seun.netlify.app/"
@@ -66,10 +66,10 @@ function WorkDisplay() {
         <div className={styles.workTextContainer}>
           <h1>Blank.ng</h1>
           <h2>
-            One of my first collaborative projects, i built the landing page for
+            One of my first collaborative projects, I built the landing page for
             my previous company along side a senior developer
           </h2>
-          <h3>Built with : React and Css</h3>
+          <h3>Built with : React and CSS</h3>
           <a className={styles.visitBtn} href="https://blank.ng/">
             Vist Site
           </a>
@@ -89,10 +89,10 @@ function WorkDisplay() {
         <div className={styles.workTextContainer}>
           <h1>Natours</h1>
           <h2>Landing Page for a make believe tourism company</h2>
-          <h3>Built with : html, SCSS and Javascript</h3>
+          <h3>Built with : HTML, SCSS and Javascript</h3>
           <a
             className={styles.visitBtn}
-            href="https://seun-wild-oasis-dash.netlify.app/dashboard"
+            href="https://natours-seunsarumi.netlify.app/"
           >
             Vist Site
           </a>
