@@ -9,12 +9,20 @@ const fadeUp = (delay = 0) => ({
   transition: { duration: 0.6, ease: "easeOut", delay },
 });
 
+const fadeUp2 = (delay = 0) => ({
+  initial: { opacity: 0, y: 30 },
+  animate: { opacity: 1, y: 0 },
+  transition: { type: "tween", duration: 0.8, ease: "easeOut" },
+});
+
 function Hero() {
   return (
     <>
       <main className={styles.hero}>
         <div className={styles.heroContainer}>
-          <HomeNav />
+          <motion.div {...fadeUp2(1)}>
+            <HomeNav />
+          </motion.div>
           <motion.div className={styles.heroImgContainer} {...fadeUp(0)}>
             <img
               className={styles.heroImg}

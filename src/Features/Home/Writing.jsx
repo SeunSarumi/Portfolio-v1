@@ -50,12 +50,20 @@ function Writing() {
       viewport={{ once: true, amount: 0.15 }}
     >
       <div className={styles.writingContainer}>
-        <motion.div className={styles.writeup} variants={itemVariants}>
+        <motion.div
+          className={styles.writeup}
+          variants={itemVariants}
+          whileInView={{ opacity: [0, 0.5, 1], y: [60, 20, 0] }}
+        >
           <h1>Process</h1>
           <h2>fast,friendly,predictable</h2>
         </motion.div>
 
-        <motion.div className={styles.writeup} variants={itemVariants}>
+        <motion.div
+          className={styles.writeup}
+          variants={itemVariants}
+          whileInView={{ opacity: [0, 0.5, 1], y: [60, 20, 0] }}
+        >
           <h1>01 — Discovery, but chill</h1>
           <h2>
             30 minutes to understand your product, users, and deadlines. No
@@ -63,7 +71,11 @@ function Writing() {
           </h2>
         </motion.div>
 
-        <motion.div className={styles.writeup} variants={itemVariants}>
+        <motion.div
+          className={styles.writeup}
+          variants={itemVariants}
+          whileInView={{ opacity: [0, 0.5, 1], y: [60, 20, 0] }}
+        >
           <h1>02 — Plan the sprint</h1>
           <h2>
             Define scope, milestones, and what “done” looks like. You always
@@ -71,7 +83,11 @@ function Writing() {
           </h2>
         </motion.div>
 
-        <motion.div className={styles.writeup} variants={itemVariants}>
+        <motion.div
+          className={styles.writeup}
+          variants={itemVariants}
+          whileInView={{ opacity: [0, 0.5, 1], y: [60, 20, 0] }}
+        >
           <h1>03 — Build in public (with you)</h1>
           <h2>
             Daily updates, preview links, and loom walk-throughs. Feedback while
@@ -79,7 +95,11 @@ function Writing() {
           </h2>
         </motion.div>
 
-        <motion.div className={styles.writeup} variants={itemVariants}>
+        <motion.div
+          className={styles.writeup}
+          variants={itemVariants}
+          whileInView={{ opacity: [0, 0.5, 1], y: [60, 20, 0] }}
+        >
           <h1>04 — Polish & ship</h1>
           <h2>
             Accessibility checks, performance passes, edge cases, docs. Then we
@@ -101,7 +121,11 @@ function Writing() {
           </h3>
         </motion.div>
 
-        <motion.div className={styles.philContainer} variants={itemVariants}>
+        <motion.div
+          className={styles.philContainer}
+          variants={itemVariants}
+          whileInView={{ opacity: [0, 0.5, 1], y: [60, 20, 0] }}
+        >
           <h1 className={styles.philHeading}>Little philosophies</h1>
 
           <motion.ul className={styles.writeupList} variants={listVariants}>
