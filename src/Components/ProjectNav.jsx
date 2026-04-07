@@ -11,9 +11,9 @@ function ProjectNav() {
             <span className={styles.navName}>&lt;/seun sarumi&gt;</span>
           </Link>
           <div className={styles.btnLinks}>
-            <NavLink className={styles.btnLink} to="/projects">
+            <a className={styles.btnLink} download href="/Seun_Sarumi_CV.pdf">
               CV
-            </NavLink>
+            </a>
           </div>
         </div>
 
